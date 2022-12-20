@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Payment Gateway form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="left">
+            <h3>BILLING ADDRESS</h3>
+            <form>
+            <label type="text" name="full name">Full Name</label>
+            <input type="text" name="full name" placeholder="Enter name">
+            
+            <label type="text" name="email">Email</label>
+            <input type="text" name="email" placeholder="abc@gmail.com">
+            
+            <label type="text" name="address">Address</label>
+            <input type="text" name="address" placeholder="Enter Address">
+            
+            <label type="text" name="city"> City</label>
+            <input type="text" name="city" placeholder="Enter City">
+            
+            <div id="zip">
+                <label>
+                    State
+                    <select>
+                        <option>Choos State..</option>
+                        <option>Maharashtra</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Rajsthan</option>
+                        <option>Gujrat</option>
+                        <option>Hariyana</option>
+                        <option>Delhi</option>
+                        <option>Panjab</option>
+                    </select>
+                </label>
+                <label>
+                    Zip code
+                <input type="number" name="zip code" placeholder="Zip code"> 
+                </label>
+            </div>
+            </form>
+        </div>
+            <div class="right">
+             <h3>PAYMENT</h3>
+             <form>
+                Accepted Card<br>
+                <img src="/download (1).jpg" width="100">
+                <img src="/debit.png" width="50">
+                <br><br>
+                
+                  Credit card number
+                <input type="text" name="" placeholder="Enter card number">
+                 
+                Exp month
+                <input type="text" name="" placeholder="Enter month">
+                <div id="zip">
+                    <label>
+                        Exp year
+                        <select>
+                            <option>Choose year..</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            <option>2027</option>
+                        </select>
+                    </label>
+                    <lebl>
+                        CVV
+                        <input type="text" name="" placeholder="CVV">
+                    </lebl>
+                </div>
+             </form>
+             <input type="submit" name="" value="Proceed to Checkout">
+            </div>
+        </div>
+    </div>
+    </header>
+</body>
+</html>
